@@ -130,6 +130,8 @@ DB_CHARSET=utf8mb4
 ```
 Something to note is that the DB_USERNAME is equal to "root" when using GCP as I did not stray from the default. 
 
+I also included a gitignore file that ignored the .env file to avoid sharing my passwords. 
+
 **After running the code, I was successfully able to connect to my database within GCP.**
 ![](https://github.com/jas-tang/mysql_cloudmanaged_databases/blob/main/images/results.png)
 
